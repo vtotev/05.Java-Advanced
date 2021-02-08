@@ -1,0 +1,20 @@
+Sort Lines
+--------------
+Read the file provided, named "input.txt" and sort all lines. Write text to another text file. Use Path and Files Classes.
+Submit in Judge only the output of the program.
+
+Examples
+--------------
+Input	Output
+--------------
+C	A
+A	B
+B	C
+D	D
+
+
+Hints
+--------------
+•	To read all lines together use Files.readAllLines()
+ 
+•	To sort the list of strings use Collections.sort()
