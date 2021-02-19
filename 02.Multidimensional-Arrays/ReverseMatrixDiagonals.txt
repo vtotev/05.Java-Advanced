@@ -1,0 +1,35 @@
+Reverse Matrix Diagonals
+------------------------
+You are given a matrix (2D array) of integers. You have to print the matrix diagonal but in reversed order. Print each diagonal on new line.
+
+Input
+------------------------
+On the first line, single integer the number R of rows in the matrix. On each of the next R lines, C numbers separated by single spaces. Note that R and C may have different values. 
+
+Output
+------------------------
+The output should consist of R lines, each consisting of exactly C characters, separated by spaces, representing the matrix diagonals reversed.
+
+Constraints
+------------------------
+All the integers will be in the range [1….1000]
+
+Examples
+------------------------
+Example Input		Expected Output
+3 4			10
+21 20 18 15		11 12
+19 17 14 12		13 14 15
+16 13 11 10		16 17 18
+			19 20
+			21
+
+1 3			1 2 3
+3 2 1
+
+
+3 3			10
+18 17 15		11 12
+16 14 12		13 14 15
+13 11 10		16 17
+			18
