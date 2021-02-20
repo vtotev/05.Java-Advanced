@@ -1,0 +1,64 @@
+Average Students Grades
+-----------------------
+Write a program, which reads the name of a student and their grades and adds them to the student record, then prints grades along with their average grade – ordered the output by the names of the students.
+
+Input
+-----------------------
+On the first line N – the number of students, then on the next N lines student name with grade.
+
+Hints
+-----------------------
+•	Use a TreeMap (String  ArrayList<Double>) 
+•	Check if the name exists before adding the grade. If it doesn’t, add it to the map.
+•	Pass through all key-value pairs in the map and print the results. 
+•	Think of way to get the average grades for each student.
+-	You can do that with an ordinary loop or with Stream API
+
+Examples
+-----------------------
+Input
+-----------------------
+7
+Ivancho 5.20
+Mariika 5.50
+Ivancho 3.20
+Mariika 2.50
+Stamat 2.00
+Mariika 3.46
+Stamat 3.00
+
+Output
+-----------------------
+Ivancho -> 5.20 3.20 (avg: 4.20)
+Mariika -> 5.50 2.50 3.46 (avg: 3.82)
+Stamat -> 2.00 3.00 (avg: 2.50)
+
+
+Input
+-----------------------
+4
+Vladimir 4.50
+Petko 3.00
+Vladimir 5.00
+Petko 3.66
+
+Output
+-----------------------
+Petko -> 3.00 3.66 (avg: 3.33)
+Vladimir -> 4.50 5.00 (avg: 4.75)
+
+
+Input
+-----------------------
+5
+Gosho 6.00
+Gosho 5.50
+Gosho 6.00
+Ivan 4.40
+Petko 3.30
+
+Output
+-----------------------
+Gosho -> 6.00 5.50 6.00 (avg: 5.83)
+Ivan -> 4.40 (avg: 4.40)
+Petko -> 3.30 (avg: 3.30)

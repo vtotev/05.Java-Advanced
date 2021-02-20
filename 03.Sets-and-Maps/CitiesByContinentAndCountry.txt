@@ -1,0 +1,77 @@
+Cities by Continent and Country
+-------------------------------
+Write a program to read continents, countries and their cities, put them in a nested map and print them in the order of first appearance.
+
+Hints
+-------------------------------
+•	Use a nested Map (String  (Map ArrayList<String>)) 
+•	Check if the continent exists before adding the country. If it doesn’t, add it to the dictionary.
+•	Check if the country exists, before adding the city. If it doesn’t, add it to the dictionary.
+ 
+•	Pass through all key-value pairs in the Map and the values’ key-value pairs and print the results.
+
+Examples
+-------------------------------
+Input
+-------------------------------
+9
+Europe Bulgaria Sofia
+Asia China Beijing
+Asia Japan Tokyo
+Europe Poland Warsaw
+Europe Germany Berlin
+Europe Poland Poznan
+Europe Bulgaria Plovdiv
+Africa Nigeria Abuja
+Asia China Shanghai
+
+Output
+-------------------------------
+Europe:
+  Bulgaria -> Sofia, Plovdiv
+  Poland -> Warsaw, Poznan
+  Germany -> Berlin
+Asia:
+  China -> Beijing, Shanghai
+  Japan -> Tokyo
+Africa:
+  Nigeria -> Abuja
+
+
+Input
+-------------------------------
+3
+Europe Germany Berlin
+Europe Bulgaria Varna
+Africa Egypt Cairo
+Output
+-------------------------------
+Europe:
+  Germany -> Berlin
+  Bulgaria -> Varna
+Africa:
+  Egypt -> Cairo
+
+
+Input
+-------------------------------
+8
+Africa Somalia Mogadishu
+Asia India Mumbai
+Asia India Delhi
+Europe France Paris
+Asia India Nagpur
+Europe Germany Hamburg
+Europe Poland Gdansk
+Europe Germany Danzig
+
+Output
+-------------------------------
+Africa:
+  Somalia -> Mogadishu
+Asia:
+  India -> Mumbai, Delhi, Nagpur
+Europe:
+  France -> Paris
+  Germany -> Hamburg, Danzig
+  Poland -> Gdansk

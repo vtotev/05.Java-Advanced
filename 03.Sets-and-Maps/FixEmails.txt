@@ -1,0 +1,27 @@
+Fix Emails
+------------------
+You are given a sequence of strings, each on a new line, until you receive "stop" command. First string is a name of a person. On the second line you receive his email. Your task is to collect their names and emails, and remove emails whose domain ends with "us", "uk" or “com” (case insensitive). Print:
+{name} – > {email} 
+
+
+Examples
+
+Input				Output
+------------------------------------------------------
+Ivan				Ivan -> ivanivan@abv.bg
+ivanivan@abv.bg
+Petar Ivanov
+petartudjarov@abv.bg
+Mike Tyson
+myke@gmail.us
+stop
+
+
+Petar Ivanov -> petartudjarov@abv.bg		Mike Tyson -> myke@abv.bg
+Ivan
+ivanivan@gmail.com
+Petar Ivanov
+petartudjarov@yahoo.com
+Mike Tyson
+myke@abv.bg
+stop
