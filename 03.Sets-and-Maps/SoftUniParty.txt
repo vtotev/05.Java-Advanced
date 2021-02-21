@@ -1,0 +1,57 @@
+SoftUni Party
+----------------
+There is a party in SoftUni. Many guests are invited, and they are two types: VIP and regular. 
+When guest comes, you have to check if he/she exist in any of two reservation lists.
+All reservation numbers will be with 8 chars.
+All VIP numbers start with digit.
+There will be 2 command lines. First is "PARTY" - party is on and guests start coming.
+Second is "END" - then party is over, and no more guest will come.
+Output shows all guests, who didn't come to the party (VIP must be first).
+
+Examples
+----------------
+Input		Output	
+----------------
+7IK9Yo0h	2
+9NoBUajQ	7IK9Yo0h
+Ce8vwPmE	tSzE5t0p	
+SVQXQCbc
+tSzE5t0p
+PARTY
+9NoBUajQ
+Ce8vwPmE
+SVQXQCbc
+END
+
+Input		Output
+----------------
+m8rfQBvl	2
+fc1oZCE0	MDzcM9ZK
+UgffRkOn	xys2FYzn
+7ugX7bm0
+9CQBGUeJ
+2FQZT3uC
+dziNz78I
+mdSGyQCJ
+LjcVpmDL
+fPXNHpm1
+HTTbwRmM
+B5yTkMQi
+8N0FThqG
+xys2FYzn
+MDzcM9ZK
+PARTY
+2FQZT3uC
+dziNz78I
+mdSGyQCJ
+LjcVpmDL
+fPXNHpm1
+HTTbwRmM
+B5yTkMQi
+8N0FThqG
+m8rfQBvl
+fc1oZCE0
+UgffRkOn
+7ugX7bm0
+9CQBGUeJ
+END
