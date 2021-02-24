@@ -1,0 +1,15 @@
+Extract Integers
+----------------
+Read the file provided, named "input.txt" and extracts all integers that are not a part of a word in a separate file. A valid integer is surrounded with white spaces.
+Submit in Judge only the output of the program.
+
+Examples
+----------------
+Input											Output
+----------------
+On January 1 , 1533 , Michael Angelo, then fifty-seven years old, writes…		1 1533 …
+
+
+Hints
+----------------
+•	Wrap a FileInputStream in a Scanner and use the methods, hasNext(), hasNextInt() and nextInt()
