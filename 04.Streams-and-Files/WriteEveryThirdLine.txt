@@ -1,0 +1,20 @@
+Write Every Third Line
+----------------------
+Read the file provided, named "input.txt" and write to another file all lines which number is divisible by 3. Line numbers start from one.
+Submit in Judge only the output of the program.
+
+Examples
+----------------------
+Input					Output
+On January 1 , 1533 , 			then fifty-seven years old, 
+Michael Angelo, 			Tommaso de' Cavalieri, 
+then fifty-seven years old, 
+writes
+from Florence to 
+Tommaso de' Cavalieri, 
+a youth of noble Roman family,	
+
+Hints
+----------------------
+•	To get the functionality to read and write lines use BufferedReader and PrintWriter
+•	Wrap streams appropriately
