@@ -1,0 +1,52 @@
+Car Info
+----------------------------
+Create a class named Car.
+
+The class should have public fields for:
+•	Brand: String
+•	Model: String
+•	Horsepower: int
+  
+Create Car Info Method
+
+This method should return the info about any car object in the following format:
+"The car is: {brand} {model} – {horsePower} HP."
+You have to figure out how to create a method and to use it in the outside code as shown below
+  
+Test the Program 
+
+Read a cars objects, add them to collection of your choice and the print each one on the console using the carInfo() method. The input consists of single integer N the number of lines representing car objects. One each line you will read car info in the following format {brand}  {model} {horsePower} separated by single space.
+
+Examples
+
+Input
+----------------------------
+3
+Chevrolet Impala 390
+Luskava Jigula 500
+Golqma Kola 49
+
+Output
+----------------------------
+The car is: Chevrolet Impala - 390 HP.
+The car is: Luskava Jigula - 500 HP.
+The car is: Golqma Kola - 49 HP.
+
+
+Input
+----------------------------
+5
+This Car 1
+Was Made 2
+Only For 3
+Test Purposes 4
+No Way 5
+
+Output
+----------------------------
+The car is: This Car - 1 HP.
+The car is: Was Made - 2 HP.
+The car is: Only For - 3 HP.
+The car is: Test Purposes - 4 HP.
+The car is: No Way - 5 HP.
+ 
