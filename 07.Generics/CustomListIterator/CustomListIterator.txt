@@ -1,0 +1,25 @@
+Custom List Iterator
+---------------------
+For the print command you have probably used a for loop. Extend your custom list class by making it to implement Iterable. This should allow you to iterate your list in a foreach statement. 
+
+Examples
+Input
+---------------------
+Add aa
+Add bb
+Add cc
+Max
+Min
+Greater aa
+Swap 0 2
+Print
+END
+
+Output
+---------------------
+cc
+aa
+2
+cc
+bb
+aa
