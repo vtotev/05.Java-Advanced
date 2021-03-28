@@ -1,0 +1,15 @@
+Jar of T
+---------------
+Create a class Jar<> that can store anything.
+It should have two public methods:
+•	void add(element)
+•	element remove()
+Adding should add on top of its contents. Remove should get the topmost element.
+ 
+Hints
+---------------
+Use the syntax Jar<T> to create a generic class
+Submit in Judge
+Submit your solution in Judge zip your whole package with the Jar and Main classes:
+ 
+If you didn't create package just choose your classes and zip them.
