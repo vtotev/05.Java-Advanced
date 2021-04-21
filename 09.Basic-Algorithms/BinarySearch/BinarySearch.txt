@@ -1,0 +1,31 @@
+Binary Search*
+-------------------------
+Implement an algorithm that finds the index of an element in a sorted array of integers in logarithmic time
+
+Examples
+
+Input		Output		Comments
+-------------------------------------------------
+1 2 3 4 51	0		Index of 1 is 0
+1
+
+
+-1 0 1 2 4	2		Index of 1 is 2
+1
+
+
+Hints
+-------------------------
+First, if you’re not familiar with the concept, read about binary search in Wikipedia. Here you can find a tool which shows visually how the search is performed.
+In short, if we have a sorted collection of comparable elements, instead of doing linear search (which takes linear time), we can eliminate half the elements at each step and finish in logarithmic time. Binary search is a divide-and-conquer algorithm; we start at the middle of the collection, if we haven’t found the element there, there are three possibilities: 
+•	The element we’re looking for is smaller – then look to the left of the current element, we know all elements to the right are larger
+•	The element we’re looking for is larger – look to the right of the current element
+•	The element is not present, traditionally, return -1 in that case
+Start by defining a class with a method:
+ 
+Inside the method, define two variables defining the bounds to be searched and a while loop:
+ 
+Inside the while loop, we need to find the midpoint:
+ 
+If the key is to the left of the midpoint, move the right bound. If the key is to the right of the midpoint, move the left bound:
+ 
