@@ -1,0 +1,20 @@
+Recursive Factorial
+------------------------
+Write a program that finds the factorial of a given number. Use recursion.
+Note: In practice, recursion should not be used here. Instead, you should use an iterative solution. This type of solution is for exercise purposes.
+
+Examples
+
+Input		Output
+------------------------
+5		120
+10		3628800
+
+
+Hints
+------------------------
+Write a recursive method. It will take as arguments an integer number.
+•	The method should return the current element + the result of calculating factorial of current element - 1 (obtained by recursively calling it).
+•	The recursion should stop when there are no more elements in the array.
+ 
+Greedy Algorithms
